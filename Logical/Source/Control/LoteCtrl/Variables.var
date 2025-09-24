@@ -1,0 +1,3 @@
+VAR
+	LoteCtrl : LoteCtrl_type;
+END_VAR

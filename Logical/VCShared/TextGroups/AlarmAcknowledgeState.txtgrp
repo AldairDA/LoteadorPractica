@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AlarmAcknowledgeState">
+  <Property Name="Description" Value="Texts for acknowledge state of an alarm - index 0-1 long, index 10-11 short"/>
+  <Property Name="Index" Value="152"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="444594" Value="Acknowledged"/>
+    <Text ID="444595" Value="Not Acknowledged"/>
+    <Text ID="444596" Value="Acknowledged Reset"/>
+    <Text ID="444597" Value="Reset Acknowledged"/>
+    <Text ID="444598" Value="A"/>
+    <Text ID="444599" Value="nA"/>
+    <Text ID="444600" Value="RA"/>
+    <Text ID="444601" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="444594" Value="Quittiert"/>
+    <Text ID="444595" Value="Unquittiert"/>
+    <Text ID="444596" Value="Quittiert Resetiert"/>
+    <Text ID="444597" Value="Resetiert Quittiert"/>
+    <Text ID="444598" Value="A"/>
+    <Text ID="444599" Value="nA"/>
+    <Text ID="444600" Value="RA"/>
+    <Text ID="444601" Value="AR"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="444594" Value="0"/>
+    <Index ID="444595" Value="1"/>
+    <Index ID="444596" Value="3"/>
+    <Index ID="444597" Value="2"/>
+    <Index ID="444598" Value="10"/>
+    <Index ID="444599" Value="11"/>
+    <Index ID="444600" Value="12"/>
+    <Index ID="444601" Value="13"/>
+  </IndexMap>
+</TextGroup>

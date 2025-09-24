@@ -1,0 +1,3 @@
+VAR
+	VisuCtrl : VisuCtrl_type;
+END_VAR

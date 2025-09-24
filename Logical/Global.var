@@ -1,0 +1,7 @@
+VAR
+	gCtrl : Machine_ctrl_type;
+	gVisu : Visu_type;
+END_VAR
+VAR RETAIN
+	gRemanentParam : {REDUND_UNREPLICABLE} Machine_remanent_type;
+END_VAR
