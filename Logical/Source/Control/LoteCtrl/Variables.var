@@ -1,3 +1,4 @@
 VAR
 	LoteCtrl : LoteCtrl_type;
+	i : USINT;
 END_VAR

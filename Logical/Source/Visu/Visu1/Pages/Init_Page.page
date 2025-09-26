@@ -51,6 +51,7 @@
           <Text ID="444649" Value="No.-8"/>
           <Text ID="444650" Value="No.-9"/>
           <Text ID="444651" Value="No.-10"/>
+          <Text ID="444652" Value="AGREGAR A LA LISTA"/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="444639" Value="Text_1"/>
@@ -66,6 +67,7 @@
           <Text ID="444649" Value="Text_4"/>
           <Text ID="444650" Value="Text_4"/>
           <Text ID="444651" Value="Text_4"/>
+          <Text ID="444652" Value=""/>
         </TextLayer>
         <IndexMap>
           <Index ID="444639" Value="13"/>
@@ -81,15 +83,14 @@
           <Index ID="444649" Value="23"/>
           <Index ID="444650" Value="24"/>
           <Index ID="444651" Value="25"/>
+          <Index ID="444652" Value="26"/>
         </IndexMap>
       </TextGroup>
       <Controls>
         <Control ClassId="0x00001004" Name="Text_1">
           <Property Name="AlignmentHorizontal" Value="Center"/>
-          <Property Name="Border" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="109"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -102,10 +103,10 @@
           <Property Name="Width" Value="283"/>
         </Control>
         <Control ClassId="0x0000100B" Name="String_1">
-          <Property Name="Border" Value="None"/>
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="41"/>
           <Property Name="Input" Value="True"/>
           <Property Name="InputCancel" Value="Lost Focus"/>
@@ -125,7 +126,6 @@
         <Control ClassId="0x00001004" Name="Text_2">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="18"/>
           <Property Name="Left" Value="473"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -140,7 +140,6 @@
         <Control ClassId="0x00001004" Name="Text_3">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="18"/>
           <Property Name="Left" Value="642"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -153,10 +152,10 @@
           <Property Name="Width" Value="63"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_1">
-          <Property Name="Border" Value="None"/>
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="41"/>
           <Property Name="Input" Value="True"/>
           <Property Name="InputCancel" Value="Lost Focus"/>
@@ -176,7 +175,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="107"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Visu.VisuCtrl.VisuCtrl.numInputs.batch]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="118"/>
         </Control>
@@ -184,7 +183,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -195,7 +193,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="82"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[1]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -203,7 +201,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -214,7 +211,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="115"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[2]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -222,7 +219,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -233,7 +229,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="148"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[3]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -241,7 +237,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -252,7 +247,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="182"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[4]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -260,7 +255,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -271,7 +265,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="216"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[5]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -279,7 +273,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -290,7 +283,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="249"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[6]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -298,7 +291,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -309,7 +301,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="283"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[7]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -317,7 +309,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -328,7 +319,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[8]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -336,7 +327,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -347,7 +337,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="353"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[9]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -481,7 +471,6 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="Height" Value="25"/>
           <Property Name="Left" Value="116"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -492,7 +481,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="388"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[10]]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="266"/>
         </Control>
@@ -510,8 +499,52 @@
           <Property Name="Top" Value="395"/>
           <Property Name="Width" Value="41"/>
         </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_Button_Control]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_6]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="53"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="429"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
+          <Property Name="PressedForeColor" Value="248"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="26"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_6]"/>
+          <Property Name="Width" Value="315"/>
+        </Control>
       </Controls>
-      <KeyMapping/>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_6">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Visu.VisuCtrl.VisuCtrl.buttons.buttonAddToList]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
     </Layer>
   </Layers>
   <MovementOrder>

@@ -36,9 +36,13 @@ TYPE
 		numOutputs : Visu_numOutputs_type;
 	END_STRUCT;
 	Visu_buttons_type : 	STRUCT 
+		buttonAddToList : BOOL;
 	END_STRUCT;
 	Visu_numInputs_type : 	STRUCT 
+		batch : UINT;
+		material : STRING[80];
 	END_STRUCT;
 	Visu_numOutputs_type : 	STRUCT 
+		New_Member : USINT;
 	END_STRUCT;
 END_TYPE

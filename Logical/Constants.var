@@ -1,8 +1,4 @@
-
-VAR
-
-END_VAR
-
+(***********************************CONSTANTES DE NUMERO DE LOTES********************************************************************)
 VAR CONSTANT
-
+	MAX_NUM_BATCH : USINT := 10;
 END_VAR
