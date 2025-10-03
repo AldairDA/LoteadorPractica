@@ -17,10 +17,11 @@ PROGRAM _CYCLIC
 	
 	
 	//VARIABLES LOCALES A GLOBALES
-	gVisu.buttons.buttonAddToList 	:= VisuCtrl.buttons.buttonAddToList;
-	gVisu.numInputs.batch 			:= VisuCtrl.numInputs.batch;
-	gVisu.numInputs.material 		:= VisuCtrl.numInputs.material;
-	 
+	gVisu.buttons.buttonAddToList 		:= VisuCtrl.buttons.buttonAddToList;
+	gVisu.numInputs.batch 				:= VisuCtrl.numInputs.batch;
+	gVisu.numInputs.material 			:= VisuCtrl.numInputs.material;
+	gVisu.numInputs.searchBatch 		:= VisuCtrl.numInputs.searchBatch; 
+	gVisu.buttons.buttonSearchMaterial 	:= VisuCtrl.buttons.buttonSearchMaterial;
 END_PROGRAM
 
 PROGRAM _EXIT

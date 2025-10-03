@@ -12,7 +12,7 @@
   <Property Name="DefaultKeyLevelNumeric" Value="0"/>
   <Property Name="DefaultKeyLevelString" Value="0"/>
   <Property Name="DefaultLanguage" Value="en"/>
-  <Property Name="DefaultPage" Value="Source[local].Page[Init_Page]"/>
+  <Property Name="DefaultPage" Value="Source[local].Page[P1_InitPage]"/>
   <Property Name="DefaultStyleSheet" Value="Source[local].StyleSheet[mapp]"/>
   <Property Name="FocusControlDatapoint" Value="None"/>
   <Property Name="FontAntialiasing" Value="Off"/>
@@ -403,7 +403,8 @@
     <Source File="Pages\MpUserXManagerUI_Users.page"/>
     <Source File="Pages\MpTweetCoreUI_Alarm.page"/>
     <Source File="Pages\MpTweetCoreUI_Receiver.page"/>
-    <Source File="Pages\Init_Page.page"/>
+    <Source File="Pages\P1_InitPage.page"/>
+    <Source File="Pages\P2_SearchMaterial.page"/>
     <Source File="Layers\MpPageControl.layer"/>
     <Source File="Layers\MpBackground.layer"/>
     <Source File="Layers\MpOeeControl.layer"/>

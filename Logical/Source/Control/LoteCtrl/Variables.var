@@ -1,4 +1,12 @@
 VAR
 	LoteCtrl : LoteCtrl_type;
 	i : USINT;
+	DTExSetTime_0 : DTExSetTime;
+	rtc_gettime : RTCtime_typ;
+	rtc_settime : RTCtime_typ;
+	DOUT1 : BOOL;
+	error : UINT;
+	status_gettime : UINT;
+	status_settime : UINT;
+	cmd_time : BOOL;
 END_VAR

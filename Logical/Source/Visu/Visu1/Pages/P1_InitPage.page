@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?AutomationStudio Version="4.12.6.106"?>
-<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Init_Page">
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P1_InitPage">
   <Property Name="Description" Value="Default Page"/>
   <Property Name="Height" Value="480"/>
   <Property Name="Index" Value="0"/>
@@ -52,6 +52,7 @@
           <Text ID="444650" Value="No.-9"/>
           <Text ID="444651" Value="No.-10"/>
           <Text ID="444652" Value="AGREGAR A LA LISTA"/>
+          <Text ID="447504" Value=""/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="444639" Value="Text_1"/>
@@ -68,6 +69,7 @@
           <Text ID="444650" Value="Text_4"/>
           <Text ID="444651" Value="Text_4"/>
           <Text ID="444652" Value=""/>
+          <Text ID="447504" Value=""/>
         </TextLayer>
         <IndexMap>
           <Index ID="444639" Value="13"/>
@@ -84,6 +86,7 @@
           <Index ID="444650" Value="24"/>
           <Index ID="444651" Value="25"/>
           <Index ID="444652" Value="26"/>
+          <Index ID="447504" Value="3"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -120,7 +123,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="102"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Visu.VisuCtrl.VisuCtrl.numInputs.material]"/>
           <Property Name="Width" Value="153"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_2">
@@ -526,6 +529,33 @@
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_6]"/>
           <Property Name="Width" Value="315"/>
         </Control>
+        <Control ClassId="0x00001002" Name="Button_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_Button_Scroll_Right_Multi]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_9]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="39"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="733"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
+          <Property Name="PressedForeColor" Value="248"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="3"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="380"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_9]"/>
+          <Property Name="Width" Value="39"/>
+        </Control>
       </Controls>
       <KeyMapping>
         <VirtualKey Name="%embVirtualKey_6">
@@ -541,6 +571,19 @@
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
               <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Visu.VisuCtrl.VisuCtrl.buttons.buttonAddToList]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_9">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[P2_SearchMaterial]"/>
+              <Property Name="Target" Value="Page"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>

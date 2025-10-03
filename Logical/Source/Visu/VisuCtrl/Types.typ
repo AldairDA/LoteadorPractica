@@ -7,10 +7,12 @@ TYPE
 	END_STRUCT;
 	VisuCtrl_buttons_type : 	STRUCT 
 		buttonAddToList : BOOL;
+		buttonSearchMaterial : BOOL;
 	END_STRUCT;
 	VisuCtrl_numInputs_type : 	STRUCT 
 		batch : UINT;
 		material : STRING[80];
+		searchBatch : UINT;
 	END_STRUCT;
 	VisuCtrl_numOutputs_type : 	STRUCT 
 		New_Member : USINT;

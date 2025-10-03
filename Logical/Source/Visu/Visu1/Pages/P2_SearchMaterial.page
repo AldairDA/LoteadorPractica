@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="P2_SearchMaterial">
+  <Property Name="Description" Value="Default Page"/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="1"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+  <Property Name="Width" Value="800"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[MpBackground]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="MpBackground"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="447486" Value="INFORMACION DE LOTES"/>
+          <Text ID="447487" Value="LOTE"/>
+          <Text ID="447488" Value="MATERIAL"/>
+          <Text ID="447489" Value="No.-1"/>
+          <Text ID="447490" Value="No.-2"/>
+          <Text ID="447491" Value="No.-3"/>
+          <Text ID="447492" Value="No.-4"/>
+          <Text ID="447493" Value="No.-5"/>
+          <Text ID="447494" Value="No.-6"/>
+          <Text ID="447495" Value="No.-7"/>
+          <Text ID="447496" Value="No.-8"/>
+          <Text ID="447497" Value="No.-9"/>
+          <Text ID="447498" Value="No.-10"/>
+          <Text ID="447499" Value="BUSCAR"/>
+          <Text ID="447501" Value="FECHA DE ALTA"/>
+          <Text ID="447506" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="447486" Value="Text_1"/>
+          <Text ID="447487" Value="Text_2"/>
+          <Text ID="447488" Value="Text_2"/>
+          <Text ID="447489" Value="Text_4"/>
+          <Text ID="447490" Value="Text_4"/>
+          <Text ID="447491" Value="Text_4"/>
+          <Text ID="447492" Value="Text_4"/>
+          <Text ID="447493" Value="Text_4"/>
+          <Text ID="447494" Value="Text_4"/>
+          <Text ID="447495" Value="Text_4"/>
+          <Text ID="447496" Value="Text_4"/>
+          <Text ID="447497" Value="Text_4"/>
+          <Text ID="447498" Value="Text_4"/>
+          <Text ID="447499" Value=""/>
+          <Text ID="447501" Value="Text_2"/>
+          <Text ID="447506" Value=""/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="447486" Value="1"/>
+          <Index ID="447487" Value="2"/>
+          <Index ID="447488" Value="3"/>
+          <Index ID="447489" Value="4"/>
+          <Index ID="447490" Value="5"/>
+          <Index ID="447491" Value="6"/>
+          <Index ID="447492" Value="7"/>
+          <Index ID="447493" Value="8"/>
+          <Index ID="447494" Value="9"/>
+          <Index ID="447495" Value="10"/>
+          <Index ID="447496" Value="11"/>
+          <Index ID="447497" Value="12"/>
+          <Index ID="447498" Value="27"/>
+          <Index ID="447499" Value="28"/>
+          <Index ID="447501" Value="30"/>
+          <Index ID="447506" Value="31"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="109"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="55"/>
+          <Property Name="Width" Value="283"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="16"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_BitmapFrame]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="41"/>
+          <Property Name="Left" Value="512"/>
+          <Property Name="SimulationValue" Value="ABC"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="Top" Value="276"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchMaterial]"/>
+          <Property Name="Width" Value="153"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="572"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="72"/>
+          <Property Name="Width" Value="39"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="558"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="3"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="247"/>
+          <Property Name="Width" Value="63"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="41"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="524"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="108"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Visu.VisuCtrl.VisuCtrl.numInputs.searchBatch]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="118"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="82"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[1]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="115"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[2]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="148"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[3]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_5">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[4]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_6">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="216"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[5]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_7">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="249"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[6]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_8">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="283"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[7]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_9">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="319"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[8]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_10">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="353"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[9]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="4"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="90"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="124"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="6"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="156"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_7">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="7"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="188"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="8"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="224"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_9">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="9"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="257"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="10"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="290"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_11">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="11"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="326"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_12">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="360"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_11">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="116"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="388"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.numberBatch[10]]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="266"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_13">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="60"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="27"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="395"/>
+          <Property Name="Width" Value="41"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_Button_Control]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_7]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="53"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="429"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
+          <Property Name="PressedForeColor" Value="248"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="28"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="162"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_7]"/>
+          <Property Name="Width" Value="315"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_14">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="540"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="30"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="330"/>
+          <Property Name="Width" Value="98"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_Button_Scroll_Left_Multi]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_10]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="733"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
+          <Property Name="PressedForeColor" Value="248"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="31"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="380"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_10]"/>
+          <Property Name="Width" Value="39"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_12">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="29"/>
+          <Property Name="Left" Value="655"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="348"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchYear]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_13">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="578"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="357"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchMonth]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="52"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_14">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="523"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="355"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchDay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="31"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_15">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="544"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="391"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchHour]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="24"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_16">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="597"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="392"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchMinute]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_7">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x0000016B">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Visu.VisuCtrl.VisuCtrl.buttons.buttonSearchMaterial]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_10">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[P1_InitPage]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[String_1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+    <TabSeqItem Index="12" Value="Source[local].Layer[MpBackground].Control[strUserName]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
+    <TabSeqItem Index="14" Value="Source[embedded].Layer[Default].Control[Numeric_13]"/>
+    <TabSeqItem Index="15" Value="Source[embedded].Layer[Default].Control[Numeric_14]"/>
+    <TabSeqItem Index="16" Value="Source[embedded].Layer[Default].Control[Numeric_15]"/>
+    <TabSeqItem Index="17" Value="Source[embedded].Layer[Default].Control[Numeric_16]"/>
+  </TabSequence>
+</Page>

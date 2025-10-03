@@ -37,10 +37,12 @@ TYPE
 	END_STRUCT;
 	Visu_buttons_type : 	STRUCT 
 		buttonAddToList : BOOL;
+		buttonSearchMaterial : BOOL;
 	END_STRUCT;
 	Visu_numInputs_type : 	STRUCT 
 		batch : UINT;
 		material : STRING[80];
+		searchBatch : UINT;
 	END_STRUCT;
 	Visu_numOutputs_type : 	STRUCT 
 		New_Member : USINT;
