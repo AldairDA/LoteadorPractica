@@ -21,8 +21,6 @@ TYPE
 	END_STRUCT;
 	LoteCtrl_status_type : 	STRUCT 
 		writtenLine : ARRAY[1..MAX_NUM_BATCH]OF BOOL;
-		currentDay : ARRAY[1..MAX_NUM_BATCH]OF DATE_AND_TIME;
-		currentDay1 : STRING[80];
 		year : ARRAY[1..MAX_NUM_BATCH]OF UINT;
 		month : ARRAY[1..MAX_NUM_BATCH]OF USINT;
 		day : ARRAY[1..MAX_NUM_BATCH]OF USINT;

@@ -54,6 +54,11 @@
           <Text ID="447499" Value="BUSCAR"/>
           <Text ID="447501" Value="FECHA DE ALTA"/>
           <Text ID="447506" Value=""/>
+          <Text ID="450345" Value="Dia"/>
+          <Text ID="450346" Value="Mes"/>
+          <Text ID="450347" Value="Año"/>
+          <Text ID="450348" Value="Hora"/>
+          <Text ID="450349" Value="Min"/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="447486" Value="Text_1"/>
@@ -72,6 +77,11 @@
           <Text ID="447499" Value=""/>
           <Text ID="447501" Value="Text_2"/>
           <Text ID="447506" Value=""/>
+          <Text ID="450345" Value="Text_2"/>
+          <Text ID="450346" Value="Text_2"/>
+          <Text ID="450347" Value="Text_2"/>
+          <Text ID="450348" Value="Text_2"/>
+          <Text ID="450349" Value="Text_2"/>
         </TextLayer>
         <IndexMap>
           <Index ID="447486" Value="1"/>
@@ -90,6 +100,11 @@
           <Index ID="447499" Value="28"/>
           <Index ID="447501" Value="30"/>
           <Index ID="447506" Value="31"/>
+          <Index ID="450345" Value="14"/>
+          <Index ID="450346" Value="15"/>
+          <Index ID="450347" Value="16"/>
+          <Index ID="450348" Value="17"/>
+          <Index ID="450349" Value="18"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -571,8 +586,8 @@
         <Control ClassId="0x00001007" Name="Numeric_12">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="29"/>
-          <Property Name="Left" Value="655"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="558"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
@@ -580,16 +595,16 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="348"/>
+          <Property Name="Top" Value="359"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchYear]"/>
           <Property Name="ValueMode" Value="Standard"/>
-          <Property Name="Width" Value="52"/>
+          <Property Name="Width" Value="31"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_13">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="14"/>
-          <Property Name="Left" Value="578"/>
+          <Property Name="Left" Value="501"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
@@ -597,16 +612,16 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="357"/>
+          <Property Name="Top" Value="363"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchMonth]"/>
           <Property Name="ValueMode" Value="Standard"/>
-          <Property Name="Width" Value="52"/>
+          <Property Name="Width" Value="31"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_14">
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="20"/>
-          <Property Name="Left" Value="523"/>
+          <Property Name="Left" Value="453"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
@@ -614,7 +629,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="355"/>
+          <Property Name="Top" Value="360"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchDay]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="31"/>
@@ -623,7 +638,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="20"/>
-          <Property Name="Left" Value="544"/>
+          <Property Name="Left" Value="619"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
@@ -631,7 +646,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="391"/>
+          <Property Name="Top" Value="361"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchHour]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="24"/>
@@ -640,7 +655,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="20"/>
-          <Property Name="Left" Value="597"/>
+          <Property Name="Left" Value="666"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
@@ -648,9 +663,79 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="392"/>
+          <Property Name="Top" Value="362"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.Control.LoteCtrl.LoteCtrl.param.searchMinute]"/>
           <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="26"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_15">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="472"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="14"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="391"/>
+          <Property Name="Width" Value="26"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_16">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="15"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="391"/>
+          <Property Name="Width" Value="26"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_17">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="568"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="16"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="391"/>
+          <Property Name="Width" Value="26"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_18">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="622"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="17"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="391"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_19">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="18"/>
+          <Property Name="Left" Value="676"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="18"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="32"/>
         </Control>
       </Controls>
