@@ -9,4 +9,5 @@ VAR
 	status_gettime : UINT;
 	status_settime : UINT;
 	cmd_time : BOOL;
+	nWrittenLine : USINT; (*Variable auxiliar para encontrar registro vacio*)
 END_VAR
